@@ -2,5 +2,5 @@ gh_api_url: "https://api.github.com/events"
 monitored_event_types: ["WatchEvent", "PullRequestEvent", "IssuesEvent"]
 monitoring_frequency_in_seconds: 60
 
-cache_events: true
+cache_events: false
 cache_filepath: "temp/cache_of_debug_events.json"
