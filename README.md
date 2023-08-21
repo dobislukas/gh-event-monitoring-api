@@ -1,6 +1,7 @@
 # Github Event Monitoring REST API
 
 REST API application monitoring WatchEvent, PullRequestEvent and IssuesEvent from GitHub.
+The events are streamed each 60 seconds, this is configurable in app/cfg/configuration.yaml file.
 
 Its functionality offers:
 * a) Return the average time between pull requests for a given repository (specified by either name or ID).
